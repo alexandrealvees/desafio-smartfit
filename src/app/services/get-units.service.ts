@@ -7,6 +7,7 @@ import { Location } from '../types/location.interface';
 @Injectable({
   providedIn: 'root'
 })
+
 export class GetUnitsService {
   readonly apiUrl = "https://test-frontend-developer.s3.amazonaws.com/data/locations.json";
 
