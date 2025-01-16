@@ -1,21 +1,22 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { ReactiveFormsModule,FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { FilterUnitsService } from '../../services/filter-units.service';
 import { GetUnitsService } from '../../services/get-units.service';
-import { Location } from '../../types/location.interface';
+import { AppLocation  } from '../../types/location.interface';
 
 @Component({
   selector: 'app-forms',
-  standalone: true,
   imports: [ReactiveFormsModule],
+  standalone: true,
   templateUrl: './forms.component.html',
   styleUrl: './forms.component.scss'
 })
 
 export class FormsComponent implements OnInit {
   @Output() submitEvent = new EventEmitter();
-  results: Location[] = [];
-  filteredResults: Location[] = [];
+
+  results: AppLocation[] = [];
+  filteredResults: AppLocation[] = [];
   formGroup!: FormGroup;
 
   constructor(
