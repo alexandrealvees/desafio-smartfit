@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Location } from '../types/location.interface';
+import { AppLocation } from '../types/location.interface';
 
 const OPENING_HOURS = {
   morning: {
@@ -37,7 +37,7 @@ export class FilterUnitsService {
     }
   }
 
-  filterUnits(unit: Location, open_hour: string, close_hour: string) {
+  filterUnits(unit: AppLocation, open_hour: string, close_hour: string) {
     if(!unit.schedules) return true;
 
     let open_hour_filter = parseInt(open_hour, 10)
@@ -63,7 +63,7 @@ export class FilterUnitsService {
     return false;
   }
 
-  filter(results: Location[], showClosed: boolean, hour: string){
+  filter(results: AppLocation[], showClosed: boolean, hour: string){
     let intermediateResults = results;
 
     if(!showClosed) {

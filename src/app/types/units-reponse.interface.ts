@@ -1,6 +1,6 @@
-import { Location } from "./location.interface";
+import { AppLocation } from "./location.interface";
 
 export interface UnitsResponse {
   current_country_id: number,
-  locations: Location[]
+  locations: AppLocation[]
 }
