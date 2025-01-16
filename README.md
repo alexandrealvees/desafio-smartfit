@@ -57,5 +57,8 @@ Para executar a aplicação localmente, siga os passos abaixo:
   npm start
 ```
 
+## 🖼️ Imagens
+
+
 ## Licença
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para obter mais detalhes.
