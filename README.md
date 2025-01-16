@@ -59,6 +59,13 @@ Para executar a aplicação localmente, siga os passos abaixo:
 
 ## 🖼️ Imagens
 
+### Tela Inicial
+![Encontrar_Unidades](./src/assets/images/imagens_projeto/tela_inicial.png)
+
+
+### Encontrar Unidades
+![Encontrar_Unidades](./src/assets/images/imagens_projeto/encontrar_unidades.png)
+
 
 ## Licença
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para obter mais detalhes.
