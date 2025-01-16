@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/desafio-smartfit/',
   entryPoints: {
     '': () => import('./main.server.mjs')
   },
