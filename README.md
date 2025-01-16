@@ -1,4 +1,4 @@
-# DesafioSmartfit
+# Desafio Smartfit
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
 
@@ -14,9 +14,13 @@ Neste desafio, foi implementado as seguintes funcionalidades de acordo com as re
 
 ### Funcionalidades
 [x] Carrega unidades através do arquivo JSON [locations.json](https://test-frontend-developer.s3.amazonaws.com/data/locations.json) utilizando o método `GET`.
+
 [x] Busca por todas as unidades.
+
 [x] Busca por unidades com filtros.
+
 [x] Previsão do número de resultados encontrados.
+
 [x] Listagem das unidades encontradas após a busca.
 
 ### Regras de negócio
@@ -36,7 +40,7 @@ Para executar a aplicação localmente, siga os passos abaixo:
 1. Clone este repositório:
 
 ```bash
-  git clone https://github.com/alexandrealvees/desafio-smartfit
+  git clone https://github.com/alexandrealvees/desafio-smartfit.git
   cd desafio-smartfit
 
 ```
